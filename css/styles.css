@@ -1,0 +1,55 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.categories h4 {
+	background: white;
+	padding: 10px;
+	box-shadow:
+
+	0 0 10px gray;
+	border-radius: 10px;
+}
+nav {
+	background: #ffffff !important;
+	color: white !important;
+}
+.nav-link {
+	color: white;
+}
+.nav-link:hover {
+	font-size: 18px;
+	color: white;
+}
+.navbar-toggler {
+	background: #002e32;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+	border-color: rgb(255,255,255);
+} 
+.yukariCik {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: opacity 0.4s;
+}
+
+.yukariCik:hover {
+	opacity: 0.7;
+}
+
+.bg-secondary {
+	background: #ffffff !important;
+
+}
+
