@@ -1,0 +1,131 @@
+@media only screen and (max-width: 767px) {
+  .login-wrapper .loginbox .login-right {
+    width: 100% !important;
+  }
+
+  .login-wrapper .loginbox {
+    background-color: #fff;
+    box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+    display: flex;
+    margin: 0 auto;
+    max-width: unset;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .login-wrapper {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 0;
+  }
+}
+
+.dataTables_length label:after {
+  content: "";
+}
+
+.dataTables_length label:before {
+  content: "";
+}
+
+.dt-buttons {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: var(--anaRenk) !important;
+  border: 1px solid var(--anaRenk) !important;
+  box-shadow: inset 0 0 0 0 #fff !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #fff !important;
+  border-color: var(--anaRenk) !important;
+  color: var(--anaRenk) !important;
+  box-shadow: inset 0 50px 0 0 #fff !important;
+}
+
+.islemlerRow .btn {
+  padding: 5px 10px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebar .sidebar-menu > ul > li > a.active::before {
+  background: var(--anaRenk);
+}
+
+.sidebar .sidebar-menu > ul > li > a.active::after {
+  background: var(--anaRenk);
+}
+
+.service-upload #frames img,
+.service-upload #frames2 img {
+  height: 150px !important;
+  width: auto !important;
+  margin-top: 25px;
+}
+
+.dataTables_paginate {
+  width: 100%;
+}
+
+.sidebar .sidebar-header {
+  height: 60px !important;
+}
+
+.sidebar-logo img {
+  width: 100%;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+input[readonly] {
+  background-color: #f2f2f2;
+  color: #666;
+  border: 1px solid #ccc;
+  cursor: not-allowed;
+}
+
+.tableImg {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid var(--anaRenk);
+  padding: 1px;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}
+
+
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+.islemThead {
+    width: 50px;
+  }
+  
+
+  #scrollTopButton{
+    z-index: 2;
+  }
